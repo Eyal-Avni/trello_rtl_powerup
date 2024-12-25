@@ -1,0 +1,18 @@
+{
+    "id": "replace-with-a-unique-id",
+    "name": "RTL Text Fixer",
+    "icon": {
+      "url": "https://cdn-icons-png.flaticon.com/512/25/25231.png" // Replace with your icon
+    },
+    "author": "Your Name",
+    "capabilities": [
+      "card-back-section",
+      "card-buttons",
+      "show-settings"
+    ],
+    "connectors": [],
+    "domains": [
+      "your-server-url.com" // Replace with your hosting domain
+    ]
+  }
+  
