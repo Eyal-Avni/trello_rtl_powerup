@@ -1,4 +1,5 @@
 const t = TrelloPowerUp.iframe();
+console.log("Power-Up initialized!");
 
 // Add capabilities to your Power-Up
 window.TrelloPowerUp.initialize({
