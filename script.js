@@ -15,11 +15,13 @@ window.TrelloPowerUp.initialize({
   },
 
   "card-buttons": function (t, options) {
+    console.log("Card buttons capability initialized");
     return [
       {
         text: "Apply RTL Fix",
         callback: async function (t) {
           const card = await t.card("name", "desc");
+          console.log("Card details:", card);
           const fixedDesc = `<div style='direction: rtl; text-align: right;'>${card.desc}</div>`;
 
           return t.set("card", "shared", "description", fixedDesc).then(() => {
