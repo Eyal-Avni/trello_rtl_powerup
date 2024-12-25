@@ -5,10 +5,10 @@ window.TrelloPowerUp.initialize({
   "card-back-section": function (t, options) {
     return {
       title: "Fix RTL Text",
-      icon: "https://cdn-icons-png.flaticon.com/512/25/25231.png", // Replace with your desired icon URL
+      icon: "https://cdn-icons-png.flaticon.com/512/25/25231.png", // Generic free icon
       content: {
         type: "iframe",
-        url: t.signUrl("https://your-server-url.com/rtl-editor"), // Replace with your server URL
+        url: t.signUrl("https://eyal-avni.github.io/trello_rtl_powerup/rtl-editor"), // Updated with GitHub Pages URL
         height: 150
       }
     };
@@ -32,14 +32,6 @@ window.TrelloPowerUp.initialize({
 
   "authorization-status": function (t) {
     return { authorized: true };
-  },
-
-  "show-settings": function (t) {
-    return t.popup({
-      title: "Power-Up Settings",
-      url: "settings.html", // URL to your settings page
-      height: 150
-    });
   }
 });
 

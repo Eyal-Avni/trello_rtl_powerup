@@ -1,18 +1,19 @@
 {
-    "id": "replace-with-a-unique-id",
+    "id": "rtl-fix-powerup",
     "name": "RTL Text Fixer",
     "icon": {
-      "url": "https://cdn-icons-png.flaticon.com/512/25/25231.png" // Replace with your icon
+      "url": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     },
-    "author": "Your Name",
+    "author": "Eyal Avni",
     "capabilities": [
       "card-back-section",
-      "card-buttons",
-      "show-settings"
+      "card-buttons"
     ],
     "connectors": [],
     "domains": [
-      "your-server-url.com" // Replace with your hosting domain
-    ]
+      "eyal-avni.github.io"
+    ],
+    "description": "A Trello Power-Up that applies RTL (right-to-left) text styling to card descriptions.",
+    "documentation": "https://eyal-avni.github.io/trello_rtl_powerup/"
   }
   
